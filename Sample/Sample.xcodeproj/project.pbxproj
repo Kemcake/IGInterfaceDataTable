@@ -21,6 +21,8 @@
 		29BE4FB51A9BFFD30025C38E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BE4FB31A9BFFD30025C38E /* Interface.storyboard */; };
 		29BE4FB71A9BFFD30025C38E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BE4FB61A9BFFD30025C38E /* Images.xcassets */; };
 		29BE4FBA1A9BFFD30025C38E /* Sample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 29BE4F9D1A9BFFD20025C38E /* Sample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A591653B1ADCF62900271C4B /* ThreeInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59165381ADCF62900271C4B /* ThreeInterfaceController.m */; };
+		A591653C1ADCF62900271C4B /* TwoInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A591653A1ADCF62900271C4B /* TwoInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,10 @@
 		29BE4FB61A9BFFD30025C38E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		448F74D31BEC54546D415F4E /* libPods-Sample WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7980A24DC5FDE4A774567ED8 /* Pods-Sample WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample WatchKit Extension/Pods-Sample WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		A59165371ADCF62900271C4B /* ThreeInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeInterfaceController.h; sourceTree = "<group>"; };
+		A59165381ADCF62900271C4B /* ThreeInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeInterfaceController.m; sourceTree = "<group>"; };
+		A59165391ADCF62900271C4B /* TwoInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoInterfaceController.h; sourceTree = "<group>"; };
+		A591653A1ADCF62900271C4B /* TwoInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoInterfaceController.m; sourceTree = "<group>"; };
 		E94C473C6E0BE1052943D5AF /* Pods-Sample WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample WatchKit Extension/Pods-Sample WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +166,10 @@
 			children = (
 				29BE4FA21A9BFFD20025C38E /* InterfaceController.h */,
 				29BE4FA31A9BFFD20025C38E /* InterfaceController.m */,
+				A59165371ADCF62900271C4B /* ThreeInterfaceController.h */,
+				A59165381ADCF62900271C4B /* ThreeInterfaceController.m */,
+				A59165391ADCF62900271C4B /* TwoInterfaceController.h */,
+				A591653A1ADCF62900271C4B /* TwoInterfaceController.m */,
 				299C0CB11ABA2E68002D7FB7 /* Row Controllers */,
 				29BE4F9F1A9BFFD20025C38E /* Supporting Files */,
 			);
@@ -387,6 +397,8 @@
 			files = (
 				294D4F7B1A9C013A00C842D5 /* RowController.m in Sources */,
 				294D4F7C1A9C013A00C842D5 /* SectionRowController.m in Sources */,
+				A591653C1ADCF62900271C4B /* TwoInterfaceController.m in Sources */,
+				A591653B1ADCF62900271C4B /* ThreeInterfaceController.m in Sources */,
 				29BE4FA41A9BFFD20025C38E /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
